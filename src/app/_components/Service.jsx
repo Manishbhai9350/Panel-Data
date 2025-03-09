@@ -69,7 +69,7 @@ const Service = ({ name, idx, SubServices = [] , logo }) => {
         className="service-data absolute left-0 top-[60px] flex flex-col justify-start items-end w-full h-auto"
       >
         {SubServices.map((subService, index) => (
-          <SubService key={index} {...subService} />
+          <SubService idx={index} key={index} {...subService} />
         ))}
       </div>
     </div>
