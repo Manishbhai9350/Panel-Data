@@ -5,23 +5,23 @@ const Data = [
         SubServices:[
             {
                 service:'Followers',
-                price:50,
-                amount:100
+                price:62,
+                amount:1000
             },
             {
                 service:'Likes',
-                price:10,
-                amount:100
+                price:1.57,  
+                amount:1000
             },
             {
                 service:'Comments',
-                price:20,
-                amount:70
+                price:62.37,
+                amount:1000
             },
             {
                 service:'Views',
-                price:100,
-                amount:3000
+                price:0.271,
+                amount:1000
             },
         ]
     }
